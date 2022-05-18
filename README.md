@@ -3,7 +3,7 @@ Projeto para o Hackathon.
 
 #  Como utilizar o Git:
 ## Clonar o repositório
-git clone 
+git clone https://github.com/renan-fig/FutBus.git
 
 ## Entrar no diretório
 cd FutBus
