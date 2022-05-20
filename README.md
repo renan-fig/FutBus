@@ -1,6 +1,8 @@
 # FutBus
 Projeto para o Hackathon.
 
+#Projeto no canva
+https://www.canva.com/design/DAFBFJDCl3g/944Yz7oyrrkSoKXUZIKL_w/edit
 #  Como utilizar o Git:
 ## Clonar o repositório
 git clone https://github.com/renan-fig/FutBus.git
