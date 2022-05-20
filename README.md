@@ -1,6 +1,13 @@
 # FutBus
 Projeto para o Hackathon.
 
+# Time de devs:
+- Renan Figueiredo 
+- Matthew Araujo
+- João Pedro Dórea (Home)
+- Guilhereme Félix (Footer)
+- Pedro Gonzaga (Header)
+
 #  Como utilizar o Git:
 ## Clonar o repositório
 git clone 
