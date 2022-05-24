@@ -5,8 +5,8 @@ Projeto para o Hackathon.
 - Renan Figueiredo 
 - Matthew Araujo
 - João Pedro Dórea (Home)
-- Guilhereme Félix (Footer)
-- Pedro Gonzaga (Header)
+- Guilhereme Félix (Footer e Header)
+- Pedro Gonzaga (Content)
 
 #  Como utilizar o Git:
 ## Clonar o repositório
