@@ -34,6 +34,128 @@ img.displayed {
     margin-top: 100px;
 
 }
-}
+
 
 /* Area do Buzina */
+
+#why{
+    display:flex;
+    background: #EDEDED;
+}
+
+#containerwhy{
+    position: absolute;
+    width: 1850px;
+    height: 600px;
+    background: #EDEDED;
+}
+
+#title1{
+    position: absolute;
+    width: 694px;
+    height: 68px;
+}
+#textMain{
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #000000;
+}
+
+#phrase1{
+    position: absolute;
+    width: 155px;
+    height: 33px;
+    margin-top: 200px;
+    margin-left:150px;
+}
+#text1{
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 12px;
+    text-align: right;
+    color: #000000;
+}
+
+#phrase2{
+    position: absolute;
+    width: 149px;
+    height: 33px;
+    margin-top: 200px;
+    margin-left:550px;
+}
+#text2{
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 12px;
+    text-align: right;
+    color: #000000;
+}
+
+#phrase3{
+    position:absolute;
+    width: 137px;
+    height: 33px;
+    margin-top: 200px;
+    margin-left:950px;
+}
+#text3{
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 12px;
+    text-align: right;
+    color: #000000;
+}
+#space1{
+    position: absolute;
+    width: 290px;
+    height: 210px;
+    background: #FFFFFF;
+    margin-top: 300px;
+    margin-left:100px;
+}
+#imgseg{
+    position: absolute;
+    width: 230px;
+    height: 210px;
+    margin-left:30px;
+}
+
+#space2{
+    position: absolute;
+    width: 290px;
+    height: 210px;
+    background: #FFFFFF;
+    margin-top: 300px;
+    margin-left:500px;
+}
+#imgfac{
+    position: absolute;
+    width: 290px;
+    height: 210px;
+    margin-left:0px;
+}
+
+#space3{
+    position: absolute;
+    width: 290px;
+    height: 210px;
+    background: #FFFFFF;
+    margin-top: 300px;
+    margin-left:900px;
+}
+#imgconf{
+    position: absolute;
+    width: 290px;
+    height: 210px;
+    margin-left:0px;
+}
