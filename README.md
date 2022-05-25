@@ -3,6 +3,7 @@ Projeto para o Hackathon.
 
 #Projeto no canva
 https://www.canva.com/design/DAFBFJDCl3g/944Yz7oyrrkSoKXUZIKL_w/edit
+#Projeto no Figma https://www.figma.com/file/hZEeI8TLZsvrStfDlVJm5C/modeloFutBus?node-id=0%3A1
 #  Como utilizar o Git:
 ## Clonar o repositório
 git clone https://github.com/renan-fig/FutBus.git
