@@ -4,6 +4,7 @@
 
     display: flex;
     background-color: #D9D9D9;
+    height: 700px;
 }
 
 #imagem-home{
@@ -17,7 +18,7 @@
 #titulo-imagem {
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 0;
+    padding-top: 30px;
 }
 
 img.displayed {
@@ -29,11 +30,48 @@ img.displayed {
 #formulario 
 {
     width: 492px;
-    height: 430px;
+    height: 550px;
     background-color: #AFAFAF;
     margin-top: 100px;
 
+
 }
+
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+    margin-bottom: 27px;
+    height: 41px;
+    
+}
+
+input.nomeCompleto{
+
+    margin-top: 24px;
+    
+}
+
+button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 218px;
+    height: 44px;
+    background-color: #6D736D;
+    color: white;
+    cursor: pointer;
+    border-style:none;
+    font-size: 20px;
+    
+}
+
+button:hover
+{
+    background-color: #D9D9D9;
+    color: black;
 }
 
 /* Area do Buzina */
