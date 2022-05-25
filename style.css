@@ -200,3 +200,51 @@ button:hover
     height: 210px;
     margin-left:0px;
 }
+
+/*Área do Guilherme - Header*/
+
+body{
+	margin:0px;
+}
+
+#header{
+	height:100px;
+	background-color:gray;
+	font-family:'Arial';
+	color:white;
+	font-size:50px;
+	text-align:center;	
+	
+}
+
+/*Footer*/
+
+#left{
+	float:left;
+	width:400px;
+	height:255px;
+	background-size:200px;
+	color:black;
+	font-family:Verdana;
+	font-size:14px;
+	background:gray;
+}
+#content{
+	width:560px;
+	height:255px;
+	color:black;
+	font-family:Verdana;
+	font-size:14px;
+	background-color:gray;
+	display:inline-block;
+	text-align:justify
+}
+#right{
+	float:right;
+	width:406px;
+	height:255px;
+	color:black;
+	font-family:Arial;
+	font-size:14px;
+	background-color:gray;
+}
