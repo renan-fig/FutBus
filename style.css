@@ -86,7 +86,7 @@ button:hover
 
 #containerwhy{
     position: absolute;
-    width: 1850px;
+    width: 1920px;
     height: 600px;
     background: #EDEDED;
 }
@@ -95,6 +95,7 @@ button:hover
     position: absolute;
     width: 694px;
     height: 68px;
+    margin-left: 50px;
 }
 #textMain{
     font-family: Verdana;
@@ -111,13 +112,13 @@ button:hover
     width: 155px;
     height: 33px;
     margin-top: 200px;
-    margin-left:150px;
+    margin-left:200px;
 }
 #text1{
     font-family: Verdana;
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 30px;
     line-height: 12px;
     text-align: right;
     color: #000000;
@@ -128,13 +129,13 @@ button:hover
     width: 149px;
     height: 33px;
     margin-top: 200px;
-    margin-left:550px;
+    margin-left:800px;
 }
 #text2{
     font-family: Verdana;
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 30px;
     line-height: 12px;
     text-align: right;
     color: #000000;
@@ -145,59 +146,59 @@ button:hover
     width: 137px;
     height: 33px;
     margin-top: 200px;
-    margin-left:950px;
+    margin-left:1400px;
 }
 #text3{
     font-family: Verdana;
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 30px;
     line-height: 12px;
     text-align: right;
     color: #000000;
 }
 #space1{
     position: absolute;
-    width: 290px;
-    height: 210px;
+    width: 350px;
+    height: 250px;
     background: #FFFFFF;
     margin-top: 300px;
     margin-left:100px;
 }
 #imgseg{
     position: absolute;
-    width: 230px;
-    height: 210px;
-    margin-left:30px;
+    width: 350px;
+    height: 250px;
+    margin-left:0px;
 }
 
 #space2{
     position: absolute;
-    width: 290px;
-    height: 210px;
+    width: 350px;
+    height: 250px;
     background: #FFFFFF;
     margin-top: 300px;
-    margin-left:500px;
+    margin-left:700px;
 }
 #imgfac{
     position: absolute;
-    width: 290px;
-    height: 210px;
+    width: 350px;
+    height: 250px;
     margin-left:0px;
 }
 
 #space3{
     position: absolute;
-    width: 290px;
-    height: 210px;
+    width: 350px;
+    height: 250px;
     background: #FFFFFF;
     margin-top: 300px;
-    margin-left:900px;
+    margin-left:1300px;
 }
 #imgconf{
     position: absolute;
-    width: 290px;
-    height: 210px;
+    width: 350px;
+    height: 250px;
     margin-left:0px;
 }
 
