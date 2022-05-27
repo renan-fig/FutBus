@@ -86,7 +86,7 @@ button:hover
 
 #containerwhy{
     position: absolute;
-    width: 1920px;
+    width: 100%;
     height: 600px;
     background: #EDEDED;
 }
