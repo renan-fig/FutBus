@@ -1,20 +1,16 @@
 /* Area do Dorea */
 
-
-#home {
-
+.home-container {
     display: flex;
     background-color: #D9D9D9;
-    height: 700px;
-    width: 1920px;
+    height: auto;
+    width: 100%;
 }
 
 #imagem-home{
-
-    margin-left: 168px;
-    width: 560px;
-    margin-right: 400px;
-    
+    padding-left: 10rem;
+    margin-right: -40px;
+    width: 50%;
 }
 
 #titulo-imagem {
@@ -25,50 +21,55 @@
 
 img.displayed {
     display: block;
-    margin-left: auto;
-    margin-right: auto 
+    justify-content: center;
+    align-items: center;
 }
 
-#formulario 
-{
-    width: 492px;
-    height: 550px;
-    background-color: #AFAFAF;
-    margin-top: 100px;
-
-
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem;
+}
+#formulario {
+    height: 60vh;
+    width: 24rem;
+    border-radius: 5%;
+    background-color: #9c9d9c;
+    border: #ffffff;
+    padding: 30px;
+    top: 340px;
 }
 
 input{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 420px;
-    margin-bottom: 27px;
-    height: 41px;
-    text-align:center;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 25px;
+    width: 340px;
+    height: 35px;
 }
 
 input.nomeCompleto{
-
     margin-top: 24px;
-    
 }
 
 button
 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 218px;
-    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 10px;
     background-color: #6D736D;
     color: white;
     cursor: pointer;
     border-style:none;
     font-size: 20px;
-    
+    margin-left: 5rem;
 }
 
 button:hover
@@ -206,6 +207,7 @@ button:hover
 
 body{
 	margin:0px;
+    padding: 0;
 }
 
 #header{
@@ -215,7 +217,7 @@ body{
 	color:white;
 	font-size:50px;
 	text-align:center;	
-	
+	padding-top: 25px;
 }
 
 /*Footer*/
