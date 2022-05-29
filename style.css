@@ -192,29 +192,36 @@ body{
     width: 100%;
 }
 #left{
-	width:400px;
+	float:left;
+	width:33.4%;
 	height:255px;
-	background-size:200px;
 	color:black;
-	font-family:Verdana;
+	font-family:Arial;
 	font-size:14px;
 	background:gray;
+	justify-content:center;
+	align-items:center;
 }
 #content{
-	width:560px;
-	height:255px;
-	color:black;
-	font-family:Verdana;
-	font-size:14px;
-	background-color:gray;
-	display:inline-block;
-	text-align:justify
-}
-#right{
-	width:406px;
+	width:33.3%;
 	height:255px;
 	color:black;
 	font-family:Arial;
 	font-size:14px;
 	background-color:gray;
+	display:inline-block;
+	text-align:justify;
+	justify-content:center;
+	align-items:center;
+}
+#right{
+	float:right;
+	width:33.3%;
+	height:255px;
+	color:black;
+	font-family:Arial;
+	font-size:14px;
+	background-color:gray;
+	justify-content:center;
+	align-items:center;
 }
