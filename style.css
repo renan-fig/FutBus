@@ -32,7 +32,7 @@ img.displayed {
     margin-left: 6rem;
 }
 #formulario {
-    height: 65vh;
+    height: 72vh;
     width: 24rem;
     border-radius: 5%;
     background-color: #9c9d9c;
@@ -155,6 +155,11 @@ button:hover
 
 #containerwhy .why-text{
     margin-bottom: -12px;
+}
+
+.block-escala:hover{
+    transition: 1s ease-in-out;
+    transform: scale(1.1);
 }
 
 /*Área do Guilherme - Header*/
