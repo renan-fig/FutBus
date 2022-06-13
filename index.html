@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <script src="script.js"></script>
+   
     <!--Area do Guilherme-->
     <header>
         <div id='header'> <img src="img/logo.svg">  FutBus </div>
@@ -26,13 +26,15 @@
                 
                 <div class="form-container">
                     <div id = "formulario">
-                        <input type ="text" class = "nomeCompleto" placeholder = "Nome Completo" required>
-                        <input type ="text" placeholder = "CPF" required>
-                        <input type ="text" placeholder = "Time" required>
-                        <input type ="text" placeholder = "Local de partida" required>
-                        <input type ="text" placeholder = "Estádio" required>
-                        <input type ="text" placeholder = "E-mail" required>
-                        <input id = "enviar" type = "submit" value = "Enviar"> 
+                        <form action = "enviar_email.php" method = "POST" name = "form" >
+                        <input name = "nome" type ="text" class = "nomeCompleto" placeholder = "Nome Completo" required>
+                        <input name = "cpf" type ="text" placeholder = "CPF" required>
+                        <input name = "time" type ="text" placeholder = "Time" required>
+                        <input name = "localPartida" type ="text" placeholder = "Local de partida" required>
+                        <input name = "estadio" type ="text" placeholder = "Estádio" required>
+                        <input name = "email" type ="text" placeholder = "E-mail" required>
+                        <input id = "enviar" type = "submit" name = "submit" value = "Enviar"> 
+                    </form>
                     </div>
                 </div>
 
@@ -42,17 +44,17 @@
         <section id="why">
             <div id="containerwhy">
                 <h1 id="textMain">Por que usar a FutBus!</h1>
-                <div id="block1" class="block-escala">
+                <div id="block1" class="block-escala" data-anime = "right">
                     <img class="block-img" src="img/seguranca.svg">
                     <h2 class ="why-text">Segurança</h2>
                     <p>Com FutBus, suas viagens tornam-se muito mais seguras e tranquilas!</p>
                 </div>
-                <div id="block2" class="block-escala">
+                <div id="block2" class="block-escala" data-anime = "right">
                     <img class="block-img" src="img/facilidade.svg">
                     <h2 class ="why-text">Facilidade</h2>
                     <p> Agende suas viagens pelo site ou App, sem sair de casa!</p>
                 </div>
-                <div id="block3" class="block-escala">
+                <div id="block3" class="block-escala" data-anime = "right">
                     <img class="block-img" src="img/conforto.svg">
                     <h2 class ="why-text">Conforto</h2>
                     <p>Nossos ônibus são extremamente confortáveis, sempre pensando no bem estar dos nossos passageiros!</p>
@@ -83,6 +85,7 @@
             </div> 
         </div>
         </footer> 
+        <script src="script.js"></script>
 </body>
 
 </html>

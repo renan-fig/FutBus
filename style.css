@@ -39,7 +39,7 @@ img.displayed {
     margin-left: 6rem;
 }
 #formulario {
-    height: 72vh;
+    height: 56vh;
     width: 24rem;
     border-radius: 5%;
     background-color: #9c9d9c;
@@ -68,15 +68,14 @@ input.nomeCompleto{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 14rem;
-    height: 3rem;
+    width: 22rem;
+    height: 4rem;
     border-radius: 10px;
     background-color: #6D736D;
     color: white;
     cursor: pointer;
     border-style:none;
     font-size: 20px;
-    margin-left: 5rem;
     margin-top: 5rem;
 }
 
@@ -230,4 +229,23 @@ body{
 	background-color:rgb(3, 77, 3);
 	justify-content:center;
 	align-items:center;
+}
+
+[data-anime]
+{
+    opacity: 0;
+    transition: .3s;
+
+}
+
+[data-anime = "right"]
+{
+
+    transform: translate3d(100px, 0, 0);
+}
+
+[data-anime].animate
+{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
 }
