@@ -56,7 +56,7 @@ input.nomeCompleto{
     margin-top: 24px;
 }
 
-button
+#enviar
 {
     display: flex;
     justify-content: center;
@@ -70,12 +70,6 @@ button
     border-style:none;
     font-size: 20px;
     margin-left: 5rem;
-}
-
-button:hover
-{
-    background-color: #D9D9D9;
-    color: black;
 }
 
 /* Area do Buzina */
