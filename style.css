@@ -39,7 +39,7 @@ img.displayed {
     margin-left: 6rem;
 }
 #formulario {
-    height: 56vh;
+    height: 65vh;
     width: 24rem;
     border-radius: 5%;
     background-color: #9c9d9c;
@@ -69,64 +69,19 @@ input.nomeCompleto{
     justify-content: center;
     align-items: center;
     width: 22rem;
-    height: 4rem;
+    height: 3rem;
     border-radius: 10px;
     background-color: #6D736D;
     color: white;
     cursor: pointer;
     border-style:none;
     font-size: 20px;
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 
 #enviar:hover{
+    transition: 1s;
     background-color: rgb(3, 77, 3);
-}
-
-#status{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px;
-    margin: 25px;
-    height: 25px;
-    padding: 10px;
-    width: 340px;
-    color: white;
-}
-
-#status.success{
-    background-color: rgb(7, 129, 7);
-    animation: status 4s ease forwards;
-
-}
-
-#status.error{
-    background-color: rgb(214, 11, 11);
-    animation: status 4s ease forwards;
-
-}
-
-@keyframes status
-{
-
-    0%{
-        opacity: 1;
-        pointer-events: all;
-    }
-
-    90%{
-        opacity: 1;
-        pointer-events: all;
-    }
-
-    100%{
-        opacity: 0;
-        pointer-events: none;
-    }
-
-
 }
 
 /* Area do Buzina */
@@ -214,7 +169,7 @@ input.nomeCompleto{
 [data-anime]
 {
     opacity: 0;
-    transition: .3s;
+    transition: .9s;
 }
 
 [data-anime = "right"]
