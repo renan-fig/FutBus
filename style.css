@@ -8,7 +8,8 @@ body{
 
 .home-container {
     display: flex;
-    background-color: #D9D9D9;
+    background-color: rgb(24, 115, 24);
+    color: white;
     height: 700px;
     width: 100%;
 }
@@ -26,7 +27,7 @@ body{
     padding-top: 30px;
 }
 
-img.displayed {
+img .displayed {
     display: block;
     justify-content: center;
     align-items: center;
@@ -42,7 +43,7 @@ img.displayed {
     height: 65vh;
     width: 24rem;
     border-radius: 5%;
-    background-color: #9c9d9c;
+    background-color: #EDEDED;
     border: #ffffff;
     padding: 30px;
     top: 340px;
@@ -50,6 +51,7 @@ img.displayed {
 
 input{
     display: flex;
+    background-color: rgb(225, 251, 225);
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -71,7 +73,7 @@ input.nomeCompleto{
     width: 22rem;
     height: 3rem;
     border-radius: 10px;
-    background-color: #6D736D;
+    background-color: #39B54A;
     color: white;
     cursor: pointer;
     border-style:none;
@@ -81,7 +83,8 @@ input.nomeCompleto{
 
 #enviar:hover{
     transition: 1s;
-    background-color: rgb(3, 77, 3);
+    transform: scale(1.1);
+    background-color: #2be343;
 }
 
 /* Area do Buzina */
@@ -115,7 +118,7 @@ input.nomeCompleto{
     height: 400px;
     margin-top: 120px;
     margin-left: -33rem;
-    background-color: rgb(3, 77, 3);
+    background-color: rgb(24, 115, 24);
     border: 1px solid black;
     border-radius: 10px;
     color: white;
@@ -130,7 +133,7 @@ input.nomeCompleto{
     height: 400px;
     margin-top: 120px;
     margin-left: 10rem;
-    background-color: rgb(3, 77, 3);
+    background-color: rgb(24, 115, 24);
     border: 1px solid black;
     border-radius: 10px;
     color: white;
@@ -145,7 +148,7 @@ input.nomeCompleto{
     height: 400px;
     margin-top: 120px;
     margin-left: 10rem;
-    background-color: rgb(3, 77, 3);
+    background-color: rgb(24, 115, 24);
     border: 1px solid black;
     border-radius: 10px;
     color: white;
@@ -199,9 +202,8 @@ body{
 
 #header{
 	height:150px;
-	background-color:rgb(3, 77, 3);
+	background-color:#EDEDED;
 	font-family:'Arial';
-	color:white;
 	font-size:50px;
 	text-align:center;	
 	padding-top: 25px;
@@ -223,7 +225,7 @@ body{
 	font-family:Arial;
     color: white;
 	font-size:14px;
-	background:rgb(3, 77, 3);
+	background:rgb(24, 115, 24);
 	justify-content:center;
 	align-items:center;
     text-indent: 150px;
@@ -234,7 +236,7 @@ body{
 	font-family:Arial;
     color: white;
 	font-size:14px;
-	background-color:rgb(3, 77, 3);
+	background-color:rgb(24, 115, 24);
 	display:inline-block;
 	text-align:justify;
 	justify-content:center;
@@ -248,7 +250,7 @@ body{
 	font-family:Arial;
     color: white;
 	font-size:14px;
-	background-color:rgb(3, 77, 3);
+	background-color:rgb(24, 115, 24);
 	justify-content:center;
 	align-items:center;
     text-indent: 120px;
