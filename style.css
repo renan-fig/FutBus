@@ -1,32 +1,38 @@
 body{
-
+    margin:0px;
+    padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+@font-face {
+    font-family: MuseoSans;
+    src: url(assets/MuseoSans_500.otf);
+ }
 
 /* Area do Dorea */
 
 .home-container {
     display: flex;
-    background-color: #D9D9D9;
+    background-color: rgb(24, 115, 24);
+    color: white;
     height: 700px;
     width: 100%;
 }
 
 #imagem-home{
     padding-left: 10rem;
-    margin-right: -40px;
+    margin-right: -50px;
     margin-left: 2%;
     width: 50%;
 }
 
 #titulo-imagem {
     font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: MuseoSans;
     padding-top: 30px;
 }
 
-img.displayed {
+img .displayed {
     display: block;
     justify-content: center;
     align-items: center;
@@ -39,10 +45,10 @@ img.displayed {
     margin-left: 6rem;
 }
 #formulario {
-    height: 56vh;
+    height: 70vh;
     width: 24rem;
     border-radius: 5%;
-    background-color: #9c9d9c;
+    background-color: #EDEDED;
     border: #ffffff;
     padding: 30px;
     top: 340px;
@@ -50,6 +56,7 @@ img.displayed {
 
 input{
     display: flex;
+    background-color: rgb(225, 251, 225);
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -69,64 +76,20 @@ input.nomeCompleto{
     justify-content: center;
     align-items: center;
     width: 22rem;
-    height: 4rem;
+    height: 3rem;
     border-radius: 10px;
-    background-color: #6D736D;
+    background-color: #39B54A;
     color: white;
     cursor: pointer;
     border-style:none;
     font-size: 20px;
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 
 #enviar:hover{
-    background-color: rgb(3, 77, 3);
-}
-
-#status{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px;
-    margin: 25px;
-    height: 25px;
-    padding: 10px;
-    width: 340px;
-    color: white;
-}
-
-#status.success{
-    background-color: rgb(7, 129, 7);
-    animation: status 4s ease forwards;
-
-}
-
-#status.error{
-    background-color: rgb(214, 11, 11);
-    animation: status 4s ease forwards;
-
-}
-
-@keyframes status
-{
-
-    0%{
-        opacity: 1;
-        pointer-events: all;
-    }
-
-    90%{
-        opacity: 1;
-        pointer-events: all;
-    }
-
-    100%{
-        opacity: 0;
-        pointer-events: none;
-    }
-
-
+    transition: 1s;
+    transform: scale(1.1);
+    background-color: #2be343;
 }
 
 /* Area do Buzina */
@@ -142,6 +105,7 @@ input.nomeCompleto{
     width: 100%;
     height: 600px;
     background-color: #EDEDED;
+    font-family: MuseoSans;
 }
 
 #containerwhy h1{
@@ -160,7 +124,7 @@ input.nomeCompleto{
     height: 400px;
     margin-top: 120px;
     margin-left: -33rem;
-    background-color: rgb(3, 77, 3);
+    background-color: rgb(24, 115, 24);
     border: 1px solid black;
     border-radius: 10px;
     color: white;
@@ -175,7 +139,7 @@ input.nomeCompleto{
     height: 400px;
     margin-top: 120px;
     margin-left: 10rem;
-    background-color: rgb(3, 77, 3);
+    background-color: rgb(24, 115, 24);
     border: 1px solid black;
     border-radius: 10px;
     color: white;
@@ -190,7 +154,7 @@ input.nomeCompleto{
     height: 400px;
     margin-top: 120px;
     margin-left: 10rem;
-    background-color: rgb(3, 77, 3);
+    background-color: rgb(24, 115, 24);
     border: 1px solid black;
     border-radius: 10px;
     color: white;
@@ -214,7 +178,7 @@ input.nomeCompleto{
 [data-anime]
 {
     opacity: 0;
-    transition: .3s;
+    transition: .9s;
 }
 
 [data-anime = "right"]
@@ -237,16 +201,10 @@ input.nomeCompleto{
 
 /*Área do Guilherme - Header*/
 
-body{
-	margin:0px;
-    padding: 0;
-}
-
 #header{
 	height:150px;
-	background-color:rgb(3, 77, 3);
+	background-color:#EDEDED;
 	font-family:'Arial';
-	color:white;
 	font-size:50px;
 	text-align:center;	
 	padding-top: 25px;
@@ -258,7 +216,7 @@ body{
 .footer-container{
     height: 480px;
     width: 100%;
-    
+    font-family: MuseoSans;
     
 }
 #left{
@@ -268,7 +226,7 @@ body{
 	font-family:Arial;
     color: white;
 	font-size:14px;
-	background:rgb(3, 77, 3);
+	background:rgb(24, 115, 24);
 	justify-content:center;
 	align-items:center;
     text-indent: 150px;
@@ -279,7 +237,7 @@ body{
 	font-family:Arial;
     color: white;
 	font-size:14px;
-	background-color:rgb(3, 77, 3);
+	background-color:rgb(24, 115, 24);
 	display:inline-block;
 	text-align:justify;
 	justify-content:center;
@@ -293,7 +251,7 @@ body{
 	font-family:Arial;
     color: white;
 	font-size:14px;
-	background-color:rgb(3, 77, 3);
+	background-color:rgb(24, 115, 24);
 	justify-content:center;
 	align-items:center;
     text-indent: 120px;
