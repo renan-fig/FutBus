@@ -1,8 +1,13 @@
 body{
-
+    margin:0px;
+    padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+@font-face {
+    font-family: MuseoSans;
+    src: url(assets/MuseoSans_500.otf);
+ }
 
 /* Area do Dorea */
 
@@ -16,14 +21,14 @@ body{
 
 #imagem-home{
     padding-left: 10rem;
-    margin-right: -40px;
+    margin-right: -50px;
     margin-left: 2%;
     width: 50%;
 }
 
 #titulo-imagem {
     font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: MuseoSans;
     padding-top: 30px;
 }
 
@@ -40,7 +45,7 @@ img .displayed {
     margin-left: 6rem;
 }
 #formulario {
-    height: 65vh;
+    height: 70vh;
     width: 24rem;
     border-radius: 5%;
     background-color: #EDEDED;
@@ -100,6 +105,7 @@ input.nomeCompleto{
     width: 100%;
     height: 600px;
     background-color: #EDEDED;
+    font-family: MuseoSans;
 }
 
 #containerwhy h1{
@@ -195,11 +201,6 @@ input.nomeCompleto{
 
 /*Área do Guilherme - Header*/
 
-body{
-	margin:0px;
-    padding: 0;
-}
-
 #header{
 	height:150px;
 	background-color:#EDEDED;
@@ -215,7 +216,7 @@ body{
 .footer-container{
     height: 480px;
     width: 100%;
-    
+    font-family: MuseoSans;
     
 }
 #left{
